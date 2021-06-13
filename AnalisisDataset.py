@@ -20,7 +20,7 @@ df.rename(columns={'Case Number':'Case_Number',
                         'Updated On':'Updated_On'},inplace=True)
 
 df.columns
-
+#Cambio
 df.describe(include=np.object)
 
 df["Primary_Type"].unique()
